@@ -1,6 +1,5 @@
-package com.beyond.basic.domain;
+package com.beyond.basic.b1_hello.domain;
 import lombok.*;
-import org.springframework.web.multipart.MultipartFile;
 
 //@Getter
 @NoArgsConstructor //기본생성자

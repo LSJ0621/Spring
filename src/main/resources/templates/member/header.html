@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en" xmlns:th = "http://www.thymeleaf.org">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,7 +9,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hello world</h1>
-    <h1 th:text = "${modelId}"></h1>
+<!--headerFragment라는 이름으로 헤더로 쓰겟다라고 설정-->
+    <div th:fragment="headerFragment">
+        <a href="/member/list">회원목록조회</a>
+        <a href="/member/create">회원등록</a>
+    </div>
 </body>
 </html>

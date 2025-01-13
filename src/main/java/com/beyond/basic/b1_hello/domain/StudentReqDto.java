@@ -1,4 +1,4 @@
-package com.beyond.basic.domain;
+package com.beyond.basic.b1_hello.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
