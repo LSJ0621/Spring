@@ -4,13 +4,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@AllArgsConstructor
-@NoArgsConstructor
+@NoArgsConstructor //기본생성자
+@AllArgsConstructor //모든 매개변수있는 생성자
 @Data
-
-public class MemberListRes {
-    private Long id;
-    private String name;
+public class MemberUpdateDto {
     private String email;
-
+    private String Password;
 }
