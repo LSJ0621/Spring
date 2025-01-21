@@ -5,13 +5,13 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Data
 @Builder
-public class MemberListRes {
+public class PostDetailDto {
     private Long id;
-    private String name;
-    private String email;
-
+    private String title;
+    private String contents;
+    private String memberEmail;
 }

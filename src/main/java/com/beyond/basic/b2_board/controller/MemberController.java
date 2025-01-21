@@ -27,7 +27,7 @@ public class MemberController {
 //    장점2: 다형성 구현가능
 //    장점3 : 순환창조 컴파일타임에 check
 //    private final MemberService memberService ;
-////    싱글톤객체로 만들어지는 시점에 아래 생성자가 호출. 생성자가 하나밖에 없을때에는 Autowred 생략가능.
+////    싱글톤객체로 만들어지는 시점에 아래 생성자가 호출. 생성자가 하나밖에 없을때에는 Autowired 생략가능.
 ////    @Autowired
 //    public MemberController(MemberService memberService){
 //        this.memberService = memberService;
